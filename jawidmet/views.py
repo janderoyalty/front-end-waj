@@ -1,4 +1,3 @@
-from django.http import JsonResponse
 from .models import User
 from .serializers import UserSerializer
 from rest_framework.decorators import api_view
